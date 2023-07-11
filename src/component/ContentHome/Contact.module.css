@@ -1,0 +1,27 @@
+.home__form {
+  background-color: #003580;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.form__content {
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__content h1 {
+  margin: 30px;
+}
+.form__content p {
+  margin-bottom: 20px;
+}
+.form__control input {
+  padding: 16px;
+  border-radius: 5px;
+  border: none;
+  min-width: 240px;
+  margin-right: 12px;
+}

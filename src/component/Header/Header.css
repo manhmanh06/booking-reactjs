@@ -1,0 +1,23 @@
+#header {
+  background-color: #003580;
+  color: white;
+}
+#header .header__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 20px 20px 80px 20px;
+  position: relative;
+}
+#header .header__container p {
+  margin: 10px 0;
+}
+#header .header__container h2 {
+  margin: 20px 0;
+}
+#header .header__btn {
+  background-color: #0071c2;
+  border: none;
+  padding: 8px;
+  color: white;
+}

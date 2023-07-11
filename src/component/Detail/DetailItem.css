@@ -1,0 +1,50 @@
+.detail__container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+.detail__header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.detail__header .detail__header__map {
+  font-size: 12px;
+}
+.detail__header .detail__header__map i {
+  margin-right: 4px;
+}
+.detail__header__price {
+  color: #148d3c;
+}
+.detail__content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+.detail__header__excellent {
+  color: #0071c2;
+}
+.detail__img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+.detail__img img {
+  width: 100%;
+}
+.detail__hightlights {
+  background-color: #e4f4ff;
+  padding: 10px;
+}
+.detail__hightlights h2 {
+  color: hsl(0, 2%, 34%);
+}
+
+.detail__hightlights span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #595555;
+}

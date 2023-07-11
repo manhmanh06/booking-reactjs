@@ -1,0 +1,41 @@
+.search__popup {
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1;
+}
+.search__popup h2 {
+  margin: 10px 0;
+}
+.search__popup button {
+  width: 100%;
+}
+.search__popup .search__popup__desti,
+.search__popup__date {
+  display: flex;
+  flex-direction: column;
+}
+.search__popup__date label {
+  margin-top: 10px;
+}
+.search__popup__option h3 {
+  margin: 10px 0;
+}
+.search__popup__date input,
+.search__popup__desti input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+.search__popup__option-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.search__popup__option-item label {
+  font-size: 12px;
+  display: block;
+}
+.search__popup__option-item input {
+  max-width: 50px;
+}

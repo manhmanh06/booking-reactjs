@@ -1,0 +1,73 @@
+.search__list {
+  flex: 3;
+}
+
+.search__item {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.search__item p {
+  font-size: 16px;
+}
+.search__item img {
+  width: 25%;
+}
+.search__content {
+  flex: 1;
+}
+
+.search__name {
+  font-weight: 700;
+  color: #0071c2;
+}
+.search__distance {
+  font-size: 14px;
+}
+.search__tag {
+  display: inline-block;
+  background-color: #008009;
+  color: #fff;
+  padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.search__free-cancel {
+  color: #008009;
+}
+.search__item .search__rate {
+  width: 20%;
+}
+.search__rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search__rate_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search__rate_text span {
+  padding: 4px;
+  font-weight: 700;
+  background-color: #0071c2;
+  color: white;
+}
+.search__price {
+  display: flex;
+  flex-direction: column;
+}
+.search__price h1 {
+  text-align: right;
+  font-weight: 700;
+  font-size: 30px;
+}
+.search__price p {
+  opacity: 0.6;
+  text-align: end;
+  font-size: 14px;
+}

@@ -1,0 +1,17 @@
+.home__city {
+  display: flex;
+
+  color: white;
+  gap: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home__city__item {
+  flex: 1;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}

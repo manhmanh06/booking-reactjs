@@ -1,0 +1,10 @@
+.search__container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 0 20px;
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  margin-top: 50px;
+}
